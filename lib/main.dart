@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:runway/pages/categories_page.dart';
-import 'package:runway/pages/home_page.dart';
+
 import 'package:runway/pages/splash_page.dart';
 
 void main() {
@@ -17,7 +16,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(),
-      home: CategoriesPage(),
+      home: SplashPage(),
     );
   }
 }
