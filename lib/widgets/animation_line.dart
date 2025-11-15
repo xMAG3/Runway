@@ -38,7 +38,7 @@ class _AnimationLineState extends State<AnimationLine>
               return LinearGradient(
                 begin: Alignment.centerLeft,
                 end: Alignment.centerRight,
-                stops: [_controller.value, 2, 6.0],
+                stops: [_controller.value, 2.0, 6.0],
                 colors: [Colors.black, Colors.transparent, Colors.black],
               ).createShader(bounds);
             },
